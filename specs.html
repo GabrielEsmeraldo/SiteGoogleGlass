@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
+    
+    <script type="text/javascript" src="_javascript/funcoes.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="interface">       
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+                <img src="_imagens/glass-logo-peq.jpg" alt="" id="logo-cabecalho" >
+            </hgroup>
+           
+            <img src="_imagens/glass-oculos-preto-peq.png" alt="google glass" id="icone">
+        
+            <nav id="menu">    
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('especificacoes')"><a href="index.html" >Home</a></li>
+                    <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('especificacoes')"><a href="specs.html" >Especificações</a></li>
+                    <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('especificacoes')"><a href="fotos.html" >Fotos</a></li>
+                    <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('especificacoes')"><a href="multimidia.html" >Multimídia</a></li>
+                    <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('especificacoes')"><a href="fale-conosco.html" >Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hgroup>
+            <h3>Glass > Especificações</h3>
+            <h1 id="article-title">Raio-X no Google Glass</h1>
+            <h2 id="author">por Gabriel Esmeraldo</h2>
+            <h3 id="date">Atualizado em 01/Maio/2021</h3>
+        </hgroup>  
+
+        <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+        <section id="conteudo">
+            <img src="_imagens/glass-esquema-marcado.jpg" alt="" usemap="#map-img">
+            <iframe scrolling="no" src="google-glass.html" frameborder="0" name="janela" id="frame-specs"></iframe>
+            <map name="map-img">
+                <area shape="poly" coords="183,219,264,207,265,242,183,253" href="google-glass.html#tela" alt="" target="janela">
+                <area shape="circle" coords="158,243,11" href="google-glass.html#camera" alt="" target="janela">
+                <area shape="circle" coords="76,51,11" href="google-glass.html#bateria" alt="" target="janela">
+                <area shape="poly" coords="27,144,81,215,83,250,26,167" href="google-glass.html#sensores" alt="" target="janela">
+            </map>
+        </section>
+        
+
+<footer id="rodape">
+    <p>Copyright 2021 - by Gabriel Esmeraldo</p>
+    <p><a href="https://www.facebook.com/gabriel.esmeraldo.9" target="_blank">Facebook</a> | <a href="https://www.instagram.com/gabriel_esmeraldo/" tabindex="_blank">Instagram</a></p>
+</footer>
+</div>
+
+
+</body>
+
+
+</html>

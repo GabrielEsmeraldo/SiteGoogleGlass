@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="_css/estilo.css">
+    
+    <script type="text/javascript" src="_javascript/funcoes.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="interface">       
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+                <img src="_imagens/glass-logo-peq.jpg" alt="" id="logo-cabecalho" >
+            </hgroup>
+           
+            <img src="_imagens/glass-oculos-preto-peq.png" alt="google glass" id="icone">
+        
+            <nav id="menu">    
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('multimidia')"><a href="index.html" >Home</a></li>
+                    <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('multimidia')"><a href="specs.html" >Especificações</a></li>
+                    <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('multimidia')"><a href="fotos.html" >Fotos</a></li>
+                    <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('multimidia')"><a href="multimidia.html" >Multimídia</a></li>
+                    <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('multimidia')"><a href="fale-conosco.html" >Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hgroup>
+            <h3>Glass > Multimídia</h3>
+            <h1 id="article-title">Sons e Vídeos</h1>
+            <h2 id="author">por Gabriel Esmeraldo</h2>
+            <h3 id="date">Atualizado em 18/Fevereiro/2021</h3>
+        </hgroup>  
+
+        <h1>Áudio e Vídeo</h1>
+
+        <div id="tv-radio">
+            <audio id="musica" controls="controls">
+                <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+            </audio>
+            <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                <source src="_media/getting-started.mp4" type="video/mp4"/>:
+            </video>
+
+        </div>
+
+<footer id="rodape">
+    <p>Copyright 2021 - by Gabriel Esmeraldo</p>
+    <p><a href="https://www.facebook.com/gabriel.esmeraldo.9" target="_blank">Facebook</a> | <a href="https://www.instagram.com/gabriel_esmeraldo/" tabindex="_blank">Instagram</a></p>
+</footer>
+</div>
+
+
+</body>
+
+
+</html>
